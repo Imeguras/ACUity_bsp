@@ -2,7 +2,8 @@
 # Modified gitignore for Renesas E2Studio (Built on eclipse): maintain all data needed by eclipse to setting up a workspace.
 #some crap
 Debug
-ra
+ra/arm/** 
+ra/fsp/**
 ra_cfg
 ra_gen
 #settings
