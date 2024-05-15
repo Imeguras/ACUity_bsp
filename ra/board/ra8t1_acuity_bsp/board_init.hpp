@@ -23,4 +23,16 @@ typedef enum{
 }e_acuity_can_status;
 
 
+typedef enum {
+    CANFD_LITE_UNIT0_CHANNEL0 = 1,
+    CANFD_LITE_UNIT0_CHANNEL1 = 2,
+    CANFD_EXTERNAL_SPI_CHANNEL0 = 3
+}e_total_can_channels;
+/**
+ * getter for the
+ * @return
+ */
+e_acuity_can_status g_canStateKernel(uint16_t id);
+void s_canStateKernel(uint16_t id_target, e_acuity_can_status ingress_status);
+
 #endif
