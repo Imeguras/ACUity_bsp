@@ -1,6 +1,6 @@
+#include "../ra/board/board_ra8t1_acuity_bsp/board.h"
 #include "hal_data.h"
-#include <unordered_map>
-#include "../ra/board/ra8t1_acuity_bsp/board.h"
+
 FSP_CPP_HEADER
 void R_BSP_WarmStart(bsp_warm_start_event_t event);
 FSP_CPP_FOOTER

@@ -1,13 +1,14 @@
 /* generated configuration header file - do not edit */
 #ifndef BOARD_CFG_H_
 #define BOARD_CFG_H_
+
 #ifdef __cplusplus
         extern "C" {
         #endif
 
 void bsp_init(void *p_args);
 
-#include "../ra/board/ra8t1_acuity_bsp/board.h"
+#include "../ra/board/board_ra8t1_acuity_bsp/board.h"
 #ifdef __cplusplus
         }
         #endif
