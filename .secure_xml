@@ -7,7 +7,7 @@
     <option key="#TargetName#" value="R7FA8T1AHECFC"/>
     <option key="#TargetARCHITECTURE#" value="cortex-m85"/>
     <option key="#DeviceCommand#" value="R7FA8T1AH"/>
-    <option key="#RTOS#" value="_none"/>
+    <option key="#RTOS#" value="rtos.threadx"/>
     <option key="#pinconfiguration#" value="R7FA8T1AHECFC.pincfg"/>
     <option key="#FSPVersion#" value="5.3.0"/>
     <option key="#SELECTED_TOOLCHAIN#" value="gcc-arm-embedded"/>
@@ -119,7 +119,7 @@
       <configSetting altId="jtag_fslash_swd.swdio.p210" configurationId="jtag_fslash_swd.swdio"/>
       <configSetting altId="p000.input" configurationId="p000"/>
       <configSetting altId="p001.input" configurationId="p001"/>
-      <configSetting altId="p002.output.high" configurationId="p002"/>
+      <configSetting altId="p002.input" configurationId="p002"/>
       <configSetting altId="p003.output.high" configurationId="p003"/>
       <configSetting altId="p004.output.high" configurationId="p004"/>
       <configSetting altId="p005.output.high" configurationId="p005"/>

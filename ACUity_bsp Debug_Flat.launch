@@ -17,10 +17,11 @@
     <stringAttribute key="com.renesas.cdt.core.runCommands" value=""/>
     <stringAttribute key="com.renesas.cdt.core.secondGDBExe" value="green_dsp-elf-gdb"/>
     <intAttribute key="com.renesas.cdt.core.secondGdbPortNumber" value="61237"/>
-    <stringAttribute key="com.renesas.cdt.core.serverParam" value="-g SEGGERJLINKARM -t R7FA8T1AH -uConnectionTimeout= 30 -uSelect= &quot;USB&quot; -uJLinkSetting= &quot;${workspace_loc:/${ProjName}}/${LaunchConfigName}.jlink&quot; -uJLinkLog= &quot;${workspace_loc:/${ProjName}}/JLinkLog.log&quot; -uLowPower= 0 -uInteface= &quot;SWD&quot; -uIfSpeed= &quot;4000&quot; -uResetBeginConnection= 1 -uNoReset= 1 -uResetBefDownload= 1 -uResetPreRun= 1 -uResetCon= 1 -uReleaseCM3= 0 -uDisconnectionMode= &quot;1&quot; -uSWOcoreClock= &quot;0&quot; -uEnableSciBoot=  1 -uAuthLevel= &quot;0&quot; -uresetOnReload= 1 -n &quot;0&quot; -uFlashBp= 1 -uSimulation= 0 -ueraseRomOnDownload= 0 -ueraseDataRomOnDownload= 0 -uOSRestriction= 0 -uProgReWriteIRom= 0 -uCPUFrequency= &quot;0&quot; -uCECycle= 1 -uResetBehavior= &quot;Reset&quot;"/>
+    <stringAttribute key="com.renesas.cdt.core.serverParam" value="-g SEGGERJLINKARM -t R7FA8T1AH -uConnectionTimeout= 30 -uSelect= &quot;USB&quot; -uJLinkSetting= &quot;${workspace_loc:/${ProjName}}/${LaunchConfigName}.jlink&quot; -uJLinkLog= &quot;${workspace_loc:/${ProjName}}/JLinkLog.log&quot; -uLowPower= 0 -uInteface= &quot;SWD&quot; -uIfSpeed= &quot;4000&quot; -uResetBeginConnection= 1 -uNoReset= 1 -uResetBefDownload= 1 -uResetPreRun= 1 -uResetCon= 1 -uReleaseCM3= 0 -uDisconnectionMode= &quot;2&quot; -uSWOcoreClock= &quot;0&quot; -uEnableSciBoot=  1 -uAuthLevel= &quot;0&quot; -uresetOnReload= 1 -n &quot;0&quot; -uFlashBp= 1 -uSimulation= 0 -ueraseRomOnDownload= 0 -ueraseDataRomOnDownload= 0 -uOSRestriction= 0 -uProgReWriteIRom= 0 -uCPUFrequency= &quot;0&quot; -uCECycle= 1 -uResetBehavior= &quot;Reset&quot;"/>
     <booleanAttribute key="com.renesas.cdt.core.setResume" value="true"/>
     <stringAttribute key="com.renesas.cdt.core.targetDevice" value="R7FA8T1AH"/>
     <booleanAttribute key="com.renesas.cdt.core.useRemoteTarget" value="true"/>
+    <stringAttribute key="com.renesas.cdt.debug.ioview.dsf.registerSelection0" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;selectedRegisterList ioFilePath=&quot;/home/micron/.eclipse/com.renesas.platform_151613622/DebugComp/RA/IoFiles/R7FA8T1AH.svd&quot;/&gt;&#10;"/>
     <stringAttribute key="com.renesas.cdt.launch.dsf.IO_MAP" value="${support_area_loc}../../../.."/>
     <booleanAttribute key="com.renesas.cdt.launch.dsf.USE_DEFAULT_IO_MAP" value="true"/>
     <stringAttribute key="com.renesas.cdt.launch.dsf.launchSeqType" value="com.renesas.cdt.launch.dsf.launchSequence.e2GdbServer"/>
@@ -29,7 +30,7 @@
     <booleanAttribute key="com.renesas.hardwaredebug.arm.jlink.break.useFlashBreakpoints.resetorrepurposed" value="true"/>
     <stringAttribute key="com.renesas.hardwaredebug.arm.jlink.cfiFlash.flashBusType" value="SPIBSC"/>
     <stringAttribute key="com.renesas.hardwaredebug.arm.jlink.cfiFlash.flashMemoryType" value="SerialFlash"/>
-    <stringAttribute key="com.renesas.hardwaredebug.arm.jlink.connection.disconnectionMode" value="1"/>
+    <stringAttribute key="com.renesas.hardwaredebug.arm.jlink.connection.disconnectionMode" value="2"/>
     <stringAttribute key="com.renesas.hardwaredebug.arm.jlink.connection.id_code2" value="FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"/>
     <stringAttribute key="com.renesas.hardwaredebug.arm.jlink.connection.jlinkScript" value=""/>
     <booleanAttribute key="com.renesas.hardwaredebug.arm.jlink.connection.registerInit" value="false"/>
@@ -95,4 +96,6 @@
         <listEntry value="4"/>
     </listAttribute>
     <booleanAttribute key="org.eclipse.debug.ui.ATTR_LAUNCH_IN_BACKGROUND" value="false"/>
+    <stringAttribute key="org.eclipse.dsf.launch.MEMORY_BLOCKS" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&lt;memoryBlockExpressionList context=&quot;reserved-for-future-use&quot;/&gt;"/>
+    <stringAttribute key="process_factory_id" value="org.eclipse.cdt.dsf.gdb.GdbProcessFactory"/>
 </launchConfiguration>
