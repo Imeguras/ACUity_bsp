@@ -19,10 +19,13 @@ fsp_err_t R_IOPORT_OutputLogicFetch (ioport_ctrl_t * const p_ctrl,
     FSP_PARAMETER_NOT_USED(p_ctrl);
 #endif
     bsp_io_port_t port    = (bsp_io_port_t) (IOPORT_PRV_PORT_BITS & (ioport_size_t) pin);
+    ioport_size_t shift    = IOPORT_PRV_PIN_BITS & (ioport_size_t) pin;
+
+
     /* Get the port address */
     R_PORT0_Type * p_ioport_regs = RENESAS_IOPORT_PRV_PORT_ADDRESS((port >> RENESAS_IOPORT_PRV_PORT_OFFSET) & RENESAS_IOPORT_PRV_8BIT_MASK);
     //now lets get PODR
-    uint8_t level =  p_ioport_regs->PODR & 0x1U;
+    uint8_t level =  p_ioport_regs->PODR & shift;
 
     if(level){
         *value = BSP_IO_LEVEL_HIGH;

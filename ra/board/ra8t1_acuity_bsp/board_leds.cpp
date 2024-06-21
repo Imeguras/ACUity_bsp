@@ -8,7 +8,7 @@
 #include "board_leds.hpp"
 #include "hal_data.h"
 
-#ifndef BOARD_RA8T1_ACUITY_BSP
+//#ifdef BOARD_RA8T1_ACUITY_BSP
 
 static const uint16_t g_bsp_prv_leds[]={
  (uint16_t)BSP_IO_PORT_00_PIN_03,//
@@ -124,4 +124,4 @@ void led_flip(uint16_t led_id){
     led_update(led_id, value);
 }
 
-#endif
+//#endif
