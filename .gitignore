@@ -4,6 +4,7 @@
 Debug
 ra/arm/** 
 ra/fsp/**
+ra/microsoft/**
 ra_cfg
 ra_gen
 #settings
@@ -17,3 +18,5 @@ history.index
 
 # E2 Studio Specific
 HardwareDebug/src
+build/
+**.jlink

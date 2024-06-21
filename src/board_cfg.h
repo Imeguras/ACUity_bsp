@@ -8,7 +8,7 @@
 
 void bsp_init(void *p_args);
 
-#include "../ra/board/board_ra8t1_acuity_bsp/board.h"
+#include "../ra/board/ra8t1_acuity_bsp/board.h"
 #ifdef __cplusplus
         }
         #endif

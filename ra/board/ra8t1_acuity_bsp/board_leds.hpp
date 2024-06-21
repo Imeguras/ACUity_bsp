@@ -19,6 +19,7 @@
 #include "../../ra/fsp/src/bsp/mcu/all/bsp_io.h"
 
 #include <stdint.h>
+#include "./board_init.hpp"
 /* BSP MCU Specific Includes. */
 
 typedef struct st_bsp_leds{
@@ -46,7 +47,9 @@ void error_blink (int times);
 void led_blink (uint16_t led_id , int times);
 void leds_blink (led_state_t led_state , int times);
 
+
 void led_update (uint16_t led_id , bsp_io_level_t value);
 void leds_update (led_state_t led_state , bsp_io_level_t value);
 
+void led_flip(uint16_t led_id);
 #endif /* BOARD_RA8T1_ACUITY_BSP_BOARD_LEDS_H_ */
